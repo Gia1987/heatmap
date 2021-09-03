@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.heatmap {
+  display: flex;
+  flex-direction: column;
+
+  .rectangle {
+    height: 10px;
+    width: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 5px;
+  }
+}
+.redder {
+  @extend .rectangle;
+  background: #dc0808;
+}
+
+.greener {
+  @extend .rectangle;
+  background: #02a004;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 11px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid blue;
+}
