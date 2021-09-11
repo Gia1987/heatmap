@@ -34,6 +34,10 @@ $cell-weekdays-width: 30px;
     }
   }
 
+  .hide {
+    visibility: hidden;
+  }
+
   &-body {
     display: flex;
 

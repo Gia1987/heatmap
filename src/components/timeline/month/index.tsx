@@ -8,7 +8,7 @@ export const Month = ({
   startDate: Dayjs;
   index: number;
 }): ReactElement => {
-  let date: Dayjs = dayjs(startDate).add(index, "day");
+  let date: Dayjs = dayjs(startDate).add(index * 7, "day");
   let monthName: string = date.format("MMM");
 
   return (

@@ -1,11 +1,11 @@
 import { render } from "@testing-library/react";
-import App from "./App";
+import Heatmap from "./";
 
 const Component = () => {
-  return <App />;
+  return <Heatmap />;
 };
 
-describe("<App/>", () => {
+describe("<Heatmap/>", () => {
   it("render", () => {
     const { container } = render(Component());
 
