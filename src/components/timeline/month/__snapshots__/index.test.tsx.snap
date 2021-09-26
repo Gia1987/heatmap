@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Month /> renders Feb 1`] = `
+<div>
+  <div
+    class="timeline-months-month Feb"
+  >
+    Feb
+  </div>
+</div>
+`;

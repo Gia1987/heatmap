@@ -5,7 +5,7 @@ import dayjs, { Dayjs } from "dayjs";
 
 export const Heatmap = (): ReactElement => {
   let startDate: Dayjs = dayjs(new Date("2019, 1, 1"), "days");
-  let endDate: Dayjs = dayjs(new Date("2019, 12, 31"), "days");
+  let endDate: Dayjs = dayjs(new Date("2020, 1, 1"), "days");
 
   let dateRange: Dayjs[] = [startDate, endDate];
 
@@ -17,7 +17,7 @@ export const Heatmap = (): ReactElement => {
         <div className="redder"></div>
       </div>
       <div className="description">
-        {" Success transaction"}
+        {"Success transaction"}
         <div className="greener"></div>
       </div>
     </div>
